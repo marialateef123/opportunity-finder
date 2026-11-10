@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# build output (run `npm run build` to regenerate)
+dist/
+
+# local / editor
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# stray empty file from the original upload
+pip
+
+# pipeline artefacts not used by the app (server.py only reads the files listed in README)
+data/clean/embeddings.npy
+data/clean/reviews.parquet
+data/clean/reviews_filtered.parquet
+data/clean/meta.parquet
+data/clean/daraz_reviews.csv
+data/clean/daraz_all.csv
+data/clean/daraz_kitchen.csv
+data/clean/daraz_reviews_sample.csv
+data/clean/daraz_product_suspicion.csv
+data/clean/daraz_features.parquet
+data/clean/daraz_niches.parquet
+data/clean/features.parquet
+data/clean/features_clustered.parquet
+data/clean/niche_features.parquet
+data/clean/niche_gaps.parquet
+data/clean/frozen_scores_2018_2020.parquet

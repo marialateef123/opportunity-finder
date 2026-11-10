@@ -1,0 +1,10 @@
+{
+  "description": "Helps entrepreneurs identify profitable product opportunities by analyzing Amazon reviews and Daraz marketplace data using AI-driven insights and market analysis.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
